@@ -44,3 +44,8 @@ h1{
 .btn:hover{
   background: color #f0f0f0;
 }
+
+.btn:disabled{
+  color:black;
+  cursor: no-drop;
+}
