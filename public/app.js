@@ -23,6 +23,57 @@ function myfunc(){
     b9btn=document.getElementById("b9");
 
     if ((b1=='X')&&(b2=='X')&&(b3=='X')){
-        document.getElementById('result')
+        document.getElementById('result').innerHTML="Player X Won !"
+        b4btn.disabled=true;
+        b5btn.disabled=true;
+        b6btn.disabled=true;
+        b7btn.disabled=true;
+        b8btn.disabled=true;
+        b9btn.disabled=true;
+
+    }
+
+    elseif ((b1=='X')&&(b4=='X')&&(b7=='X')){
+        document.getElementById('result').innerHTML="Player X Won !"
+        b2btn.disabled=true;
+        b5btn.disabled=true;
+        b6btn.disabled=true;
+        b3btn.disabled=true;
+        b8btn.disabled=true;
+        b9btn.disabled=true;
+
+    }
+
+    elseif ((b7=='X')&&(b8=='X')&&(b9=='X')){
+        document.getElementById('result').innerHTML="Player X Won !"
+        b1btn.disabled=true;
+        b2btn.disabled=true;
+        b3btn.disabled=true;
+        b4btn.disabled=true;
+        b5btn.disabled=true;
+        b6btn.disabled=true;
+
+    }
+
+    elseif ((b3=='X')&&(b6=='X')&&(b9=='X')){
+        document.getElementById('result').innerHTML="Player X Won !"
+        b1btn.disabled=true;
+        b2btn.disabled=true;
+        b4btn.disabled=true;
+        b5btn.disabled=true;
+        b7btn.disabled=true;
+        b8btn.disabled=true;
+
+    }
+
+    elseif ((b1=='X')&&(b5=='X')&&(b9=='X')){
+        document.getElementById('result').innerHTML="Player X Won !"
+        b2btn.disabled=true;
+        b5btn.disabled=true;
+        b6btn.disabled=true;
+        b3btn.disabled=true;
+        b8btn.disabled=true;
+        b9btn.disabled=true;
+
     }
 }
