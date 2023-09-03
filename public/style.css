@@ -50,7 +50,7 @@ h1{
   cursor: no-drop;
 }
 
-#print{
+#reset{
   background-color:rgba(255,255,255,0.8);
   border: 1px solid #000;
   border-radius: 10px;
@@ -59,7 +59,7 @@ h1{
   margin: 0 auto;
 }
 
-#but{
+#result-container{
   box-sizing:border-box;
   width: 95px;
   height:40px;
@@ -75,11 +75,11 @@ h1{
   text-align: center;
 }
 
-#but:hover{
+#result-container:hover{
   background-color: white;
   color:black;
 }
 
-#main{
+#header{
   text-align: center;
 }
