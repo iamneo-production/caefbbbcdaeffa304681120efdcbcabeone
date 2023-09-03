@@ -21,4 +21,8 @@ function myfunc(){
     b7btn=document.getElementById("b7");
     b8btn=document.getElementById("b8");
     b9btn=document.getElementById("b9");
+
+    if ((b1=='X')&&(b2=='X')&&(b3=='X')){
+        document.getElementById('result')
+    }
 }
