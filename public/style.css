@@ -59,3 +59,23 @@ h1{
   margin: 0 auto;
 }
 
+#but{
+  box-sizing:border-box;
+  width: 95px;
+  height:40px;
+  border: 1px solid black;
+  margin-left: auto;
+  border-radius: 8px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: black;
+  color: black;
+  font: size 20px;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+  text-align: center;
+}
+
+#but:hover{
+  background-color: white;
+  color:black;
+}
