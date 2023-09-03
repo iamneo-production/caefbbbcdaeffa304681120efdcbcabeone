@@ -49,3 +49,7 @@ h1{
   color:black;
   cursor: no-drop;
 }
+
+#print{
+  background-color:rgba(255,255,255,0.8)
+}
