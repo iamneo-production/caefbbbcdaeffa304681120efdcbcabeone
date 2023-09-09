@@ -30,6 +30,7 @@ h1{
 }
 
 .btn{
+  color: gainsboro;
   border: 1px solid transparent;
   border-radius: 10px;
   width: 75px;
@@ -41,8 +42,56 @@ h1{
   cursor:pointer;
 }
 
+#b1{
+  border-bottom:2px transparent;
+  border-right: 2px transparent;
+}
+
+#b2{
+  border-bottom:2px transparent;
+  border-right: 2px transparent;
+  border-left: 2px transparent;
+}
+
+#b3{
+  border-bottom:2px transparent;
+  border-left: 2px transparent;
+}
+
+#b4{
+  border-bottom:2px transparent;
+  border-right: 2px transparent;
+  border-top: 2px transparent;
+}
+
+#b5{
+  border:2px transparent;
+}
+
+#b6{
+  border-bottom:2px transparent;
+  border-right: 2px transparent;
+  border-left: 2px transparent;
+}
+
+#b7{
+  border-top:2px transparent;
+  border-right: 2px transparent;
+}
+
+#b8{
+  border-top:2px transparent;
+  border-right: 2px transparent;
+  border-left: 2px transparent;
+}
+
+#b9{
+  border-top:2px transparent;
+  border-left: 2px transparent;
+}
+
 .btn:hover{
-  background: color #f0f0f0;
+  background: color white;
 }
 
 .btn:disabled{
